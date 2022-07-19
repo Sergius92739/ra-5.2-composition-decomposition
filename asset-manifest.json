@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ra-5.2-composition-decomposition/static/css/main.31ae02ba.css",
+    "main.js": "/ra-5.2-composition-decomposition/static/js/main.e6d10964.js",
+    "static/js/787.8c74a5c4.chunk.js": "/ra-5.2-composition-decomposition/static/js/787.8c74a5c4.chunk.js",
+    "static/media/Inter.ttf": "/ra-5.2-composition-decomposition/static/media/Inter.9cd7588f47651215d52f.ttf",
+    "index.html": "/ra-5.2-composition-decomposition/index.html",
+    "main.31ae02ba.css.map": "/ra-5.2-composition-decomposition/static/css/main.31ae02ba.css.map",
+    "main.e6d10964.js.map": "/ra-5.2-composition-decomposition/static/js/main.e6d10964.js.map",
+    "787.8c74a5c4.chunk.js.map": "/ra-5.2-composition-decomposition/static/js/787.8c74a5c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31ae02ba.css",
+    "static/js/main.e6d10964.js"
+  ]
+}
