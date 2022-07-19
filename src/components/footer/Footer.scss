@@ -1,0 +1,46 @@
+.footer {
+  margin: 0.5em 0 0 1.3em;
+  a {
+    color: inherit;
+  }
+  &__list {
+    column-count: 3;
+    .footer__item {
+      display: inline-block;
+      margin-top: 2em;
+      &-content {
+        margin-top: 1em;
+      }
+      &-content.weather {
+        display: flex;
+      }
+      &-img img {
+        width: 3em;
+        height: 3em;
+      }
+      &-numb {
+        font-size: 2rem;
+        margin-left: 0.5em;
+      }
+      &-descript {
+        margin-left: 1.2em;
+        .row2 {
+          margin-top: 0.5em;
+        }
+      }
+      &-list {
+        .list__item {
+          margin-top: 1em;
+          & span {
+            margin-left: 0.5em;
+          }
+          & img {
+            width: 1.3em;
+            height: 1.3em;
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+}

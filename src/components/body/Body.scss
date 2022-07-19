@@ -1,0 +1,46 @@
+.body {
+  margin: 2em 0 0 1.3em;
+  .search {
+    &__header,
+    &__body {
+      margin: 1em 0 0 0;
+    }
+    &__body-row {
+      display: flex;
+      .search__body-logo {
+        position: absolute;
+        left: 115px;
+        font-size: 3rem;
+        & span {
+          color: red;
+        }
+      }
+      .search__body-input,
+      .search__body-btn {
+        padding: 0.5em;
+        font-size: 1.2rem;
+      }
+      .search__body-input {
+        width: 90%;
+        border: 2px solid #ffcc00;
+      }
+      .search__body-btn {
+        padding: 0.5em 1em;
+        background-color: #ffcc00;
+      }
+    }
+    &__body-example {
+      margin-top: 1em;
+    }
+    &__footer-img {
+      width: 90%;
+      height: 6em;
+      margin-top: 1.5em;
+    }
+  }
+  .widget__title {
+    &:nth-child(n + 2) {
+      margin-left: 1.5em;
+    }
+  }
+}

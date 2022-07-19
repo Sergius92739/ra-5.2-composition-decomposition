@@ -1,0 +1,32 @@
+@import "vars.scss";
+@import "null.scss";
+
+.page {
+  padding: 1em;
+  font-size: 0.9rem;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.gray_text {
+  color: rgb(170, 169, 169);
+}
+
+.small_text {
+  font-size: 0.8rem;
+  margin-top: 2px;
+}
+
+.widget__title {
+  // display: inline-block;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #0054b9;
+  &.inactive {
+    opacity: 0.5;
+  }
+}
