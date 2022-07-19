@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 /**
  * 
  * @param {Object} props 
@@ -14,4 +16,8 @@ export default function AdBlock(props) {
       </a>
     </div>
   )
+}
+
+AdBlock.propTypes = {
+  data: PropTypes.object.isRequired
 }

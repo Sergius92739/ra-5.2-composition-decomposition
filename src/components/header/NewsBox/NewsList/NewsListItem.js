@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 /**
  * 
  * @param {Object} props 
@@ -10,4 +12,8 @@ export default function NewsListItem(props) {
       <a href={props.url}>{props.title}</a>
     </li>
   )
+}
+
+NewsListItem.propTypes = {
+  title: PropTypes.string.isRequired
 }

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 /**
  * 
  * @param {*} Object 
@@ -9,4 +11,9 @@ export default function SearchBanner(props) {
       <img className="search__footer-img" src={props.src} alt="..." />
     </a>
   )
+}
+
+SearchBanner.propTypes = {
+  href: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired
 }

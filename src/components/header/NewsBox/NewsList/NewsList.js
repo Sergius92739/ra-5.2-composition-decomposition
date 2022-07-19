@@ -1,4 +1,5 @@
 import NewsListItem from "./NewsListItem"
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -14,4 +15,8 @@ export default function NewsList({news}) {
         </NewsListItem>)}
     </ul>
   )
+}
+
+NewsList.propTypes = {
+  news: PropTypes.array.isRequired
 }

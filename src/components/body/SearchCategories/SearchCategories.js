@@ -1,4 +1,5 @@
 import SearchCategory from "./SearchCategory";
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -13,4 +14,8 @@ export default function SearchCategories(props) {
         .map((category, idx) => <SearchCategory key={idx} href={category.href} title={category.title}/>)}
     </nav>
   )
+}
+
+SearchCategories.propTypes = {
+  categories: PropTypes.array.isRequired
 }

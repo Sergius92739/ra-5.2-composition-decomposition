@@ -1,4 +1,5 @@
 import Rate from "./Rate"
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -11,4 +12,8 @@ export default function Rates({rates}) {
       {rates.map((rate, index) => <Rate key={index} text={rate.text} num={rate.num}/>)}
     </ul>
   )
+}
+
+Rates.propTypes = {
+  rates: PropTypes.array.isRequired
 }

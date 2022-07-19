@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 /**
  * 
  * @param {*} Object 
@@ -13,4 +15,9 @@ export default function FooterItem(props) {
       {children}
     </li>
   );
+}
+
+FooterItem.propTypes = {
+  href: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 }

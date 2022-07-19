@@ -1,5 +1,6 @@
 import './Footer.scss'
 import FooterItem from "./FooterItem/FooterItem";
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -74,4 +75,12 @@ export default function Footer({ dataFooter }) {
       </ul>
     </div>
   )
+}
+
+Footer.propTypes = {
+  weather: PropTypes.object,
+  visited: PropTypes.object,
+  mapOfGermany: PropTypes.object,
+  tvProgram: PropTypes.object,
+  ether: PropTypes.object
 }

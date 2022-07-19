@@ -1,6 +1,7 @@
 import Moment from "react-moment"
 import getMonth from "../../../../utils/getMonth"
 import getWeekDay from "../../../../utils/getWeekDay"
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -28,4 +29,8 @@ export default function NewsCategory(props) {
       </div>
     </div>
   )
+}
+
+NewsCategory.propTypes = {
+  titles: PropTypes.array
 }

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 /**
  * 
  * @param {*} Object 
@@ -10,4 +12,9 @@ export default function Rate({text, num}) {
       <span className="rate__item-num">{num}</span>
     </li>
   )
+}
+
+Rate.propTypes = {
+  text: PropTypes.string.isRequired,
+  num: PropTypes.number
 }

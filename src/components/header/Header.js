@@ -1,6 +1,7 @@
 import './Header.scss'
 import AdBlock from "./AdBlock/AdBlock"
 import NewsBox from "./NewsBox/NewsBox"
+import PropTypes from "prop-types"
 
 /**
  * 
@@ -16,4 +17,8 @@ export default function Header({ dataHeader }) {
       </AdBlock>
     </header>
   )
+}
+
+Header.propTypes = {
+  dataHeader: PropTypes.object.isRequired
 }
